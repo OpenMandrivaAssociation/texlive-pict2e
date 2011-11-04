@@ -1,3 +1,9 @@
+# revision 21987
+# category Package
+# catalog-ctan /macros/latex/contrib/pict2e
+# catalog-date 2009-08-09 12:58:24 +0200
+# catalog-license lppl
+# catalog-version 0.2x
 Name:		texlive-pict2e
 Version:	0.2x
 Release:	1
@@ -64,6 +70,7 @@ environment.
 %doc %{_texmfdistdir}/source/latex/pict2e/p2e-drivers.dtx
 %doc %{_texmfdistdir}/source/latex/pict2e/pict2e.dtx
 %doc %{_texmfdistdir}/source/latex/pict2e/pict2e.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -74,3 +81,5 @@ environment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
