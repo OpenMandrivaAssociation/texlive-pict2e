@@ -70,3 +70,17 @@ environment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2x-2
++ Revision: 754900
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2x-1
++ Revision: 719256
+- texlive-pict2e
+- texlive-pict2e
+- texlive-pict2e
+- texlive-pict2e
+
