@@ -1,12 +1,12 @@
-# revision 21987
+# revision 29215
 # category Package
 # catalog-ctan /macros/latex/contrib/pict2e
-# catalog-date 2009-08-09 12:58:24 +0200
+# catalog-date 2013-01-08 22:57:06 +0100
 # catalog-license lppl
-# catalog-version 0.2x
+# catalog-version 0.2y
 Name:		texlive-pict2e
-Version:	0.2x
-Release:	2
+Version:	0.2y
+Release:	1
 Summary:	New implementation of picture commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
@@ -26,10 +26,11 @@ declined to produce the package. For a long time, LaTeX has
 included a 'pict2e package' that merely produced an apologetic
 error message. The new package extends the existing LaTeX
 picture environment, using the familiar technique (cf. the
-graphics and color packages) of driver files. The package
-documentation has a fair number of examples of use, showing
-where things are improved by comparison with the LaTeX picture
-environment.
+graphics and color packages) of driver files (at present,
+drivers for PostScript output from LaTeX, and for use with
+PDFLaTeX are available). The package documentation has a fair
+number of examples of use, showing where things are improved by
+comparison with the LaTeX picture environment.
 
 %post
     %{_sbindir}/texlive.post
@@ -70,17 +71,3 @@ environment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2x-2
-+ Revision: 754900
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2x-1
-+ Revision: 719256
-- texlive-pict2e
-- texlive-pict2e
-- texlive-pict2e
-- texlive-pict2e
-
