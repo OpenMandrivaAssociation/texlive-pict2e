@@ -6,7 +6,7 @@
 # catalog-version 0.2x
 Name:		texlive-pict2e
 Version:	0.2x
-Release:	2
+Release:	3
 Summary:	New implementation of picture commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
