@@ -1,12 +1,12 @@
-# revision 29215
+# revision 32658
 # category Package
 # catalog-ctan /macros/latex/contrib/pict2e
-# catalog-date 2013-01-08 22:57:06 +0100
+# catalog-date 2014-01-13 11:26:35 +0100
 # catalog-license lppl
-# catalog-version 0.2y
+# catalog-version 0.2z
 Name:		texlive-pict2e
-Version:	0.2y
-Release:	5
+Version:	0.2z
+Release:	1
 Summary:	New implementation of picture commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
