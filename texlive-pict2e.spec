@@ -1,12 +1,6 @@
-# revision 32658
-# category Package
-# catalog-ctan /macros/latex/contrib/pict2e
-# catalog-date 2014-01-13 11:26:35 +0100
-# catalog-license lppl
-# catalog-version 0.2z
 Name:		texlive-pict2e
-Version:	0.2z
-Release:	5
+Version:	0.3b
+Release:	1
 Summary:	New implementation of picture commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
@@ -42,25 +36,10 @@ comparison with the LaTeX picture environment.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/pict2e/p2e-dvipdfm.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-dvipdfmx.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-dvips.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-pctex32.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-pctexps.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-pdftex.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-textures.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-vtex.def
-%{_texmfdistdir}/tex/latex/pict2e/p2e-xetex.def
-%{_texmfdistdir}/tex/latex/pict2e/pict2e.cfg
-%{_texmfdistdir}/tex/latex/pict2e/pict2e.sty
-%doc %{_texmfdistdir}/doc/latex/pict2e/README
-%doc %{_texmfdistdir}/doc/latex/pict2e/manifest.txt
-%doc %{_texmfdistdir}/doc/latex/pict2e/p2e-drivers.pdf
-%doc %{_texmfdistdir}/doc/latex/pict2e/pict2e.pdf
+%{_texmfdistdir}/tex/latex/pict2e
+%doc %{_texmfdistdir}/doc/latex/pict2e
 #- source
-%doc %{_texmfdistdir}/source/latex/pict2e/p2e-drivers.dtx
-%doc %{_texmfdistdir}/source/latex/pict2e/pict2e.dtx
-%doc %{_texmfdistdir}/source/latex/pict2e/pict2e.ins
+%doc %{_texmfdistdir}/source/latex/pict2e
 
 #-----------------------------------------------------------------------
 %prep
