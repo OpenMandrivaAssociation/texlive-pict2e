@@ -1,6 +1,6 @@
 Name:		texlive-pict2e
 Version:	0.3b
-Release:	1
+Release:	2
 Summary:	New implementation of picture commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
