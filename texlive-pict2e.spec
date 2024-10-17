@@ -3,7 +3,7 @@ Version:	56504
 Release:	2
 Summary:	New implementation of picture commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pict2e
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pict2e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pict2e.doc.r%{version}.tar.xz
